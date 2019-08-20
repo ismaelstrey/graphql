@@ -1,0 +1,21 @@
+{
+  "name": "grapk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .\\src\\server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "graphql-tools": "^4.0.5",
+    "knex": "^0.19.2",
+    "mysql": "^2.17.1"
+  }
+}
